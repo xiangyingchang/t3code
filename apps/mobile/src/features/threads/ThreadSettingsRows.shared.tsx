@@ -75,7 +75,7 @@ export function ModelRowContent(
             {props.option.isDefault ? (
               <View className="rounded-md bg-subtle-strong px-1.5 py-0.5">
                 <Text className="text-3xs font-t3-bold text-foreground-muted">
-                  {gt("Default", { $context: "badge on the default model" })}
+                  {gt("Provider default", { $context: "badge on the provider's default model" })}
                 </Text>
               </View>
             ) : null}
